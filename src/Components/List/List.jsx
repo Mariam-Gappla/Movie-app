@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import axiosInstance from '../../axiosInstance';
 import './list.css';
 import empty_heart from '../../assets/empty-heart.png'; // الصورة الفارغة
 import full_heart from '../../assets/full_heart.png'; // الصورة المملوءة
-
 import { useDispatch, useSelector } from "react-redux";
 import { addToWatchlist, removeFromWatchlist } from '../../redux/inputslice';
 import { useNavigate } from 'react-router-dom';
-
 const List = () => {
   const [movies, setMovies] = useState([]);
   const dispatch = useDispatch();

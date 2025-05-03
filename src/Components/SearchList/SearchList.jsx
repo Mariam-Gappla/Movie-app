@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import full_heart from '../../assets/full_heart.png'; 
 import empty_heart from '../../assets/empty-heart.png'; 
 import './SearchList.css';

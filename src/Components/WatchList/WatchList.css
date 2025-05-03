@@ -130,6 +130,6 @@
 /* شاشة كبيرة (ديسكتوب) */
 @media (min-width: 1200px) {
   .watchlistt-grid {
-    grid-template-columns: repeat(4, 1fr); /* 4 أعمدة */
+    grid-template-columns: repeat(3, 1fr); /* 4 أعمدة */
   }
 }
